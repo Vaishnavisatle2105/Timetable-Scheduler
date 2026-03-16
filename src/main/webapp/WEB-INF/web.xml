@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>vinayak_TimeTableManagement</display-name>
+  <welcome-file-list>
+   <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+        <servlet-name>adminLogin</servlet-name>
+        <servlet-class>com.controller.adminLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>adminLogin</servlet-name>
+        <url-pattern>/adminLogin</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>adminLogout</servlet-name>
+        <servlet-class>com.controller.adminLogout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>adminLogout</servlet-name>
+        <url-pattern>/adminLogout</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>ApproveFacServlet</servlet-name>
+        <servlet-class>com.controller.ApproveFacServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ApproveFacServlet</servlet-name>
+        <url-pattern>/ApproveFacServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RejectFacServlet</servlet-name>
+        <servlet-class>com.controller.RejectFacServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RejectFacServlet</servlet-name>
+        <url-pattern>/RejectFacServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>facultyLogin</servlet-name>
+        <servlet-class>com.controller.facultyLogin</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>facultyLogin</servlet-name>
+        <url-pattern>/facultyLogin</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+        <servlet-name>facultyLogout</servlet-name>
+        <servlet-class>com.controller.facultyLogout</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>facultyLogout</servlet-name>
+        <url-pattern>/facultyLogout</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+        <servlet-name>show_msgServlet</servlet-name>
+        <servlet-class>com.controller.show_msgServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>show_msgServlet</servlet-name>
+        <url-pattern>/show_msgServlet</url-pattern>
+    </servlet-mapping>
+    
+        <servlet>
+           <servlet-name>AddDepartmentServlet</servlet-name>
+           <servlet-class>com.controller.AddDepartmentServlet</servlet-class>
+    </servlet>
+     <servlet-mapping>
+           <servlet-name>AddDepartmentServlet</servlet-name>
+           <url-pattern>/AddDepartmentServlet</url-pattern>
+      </servlet-mapping>
+      
+      <servlet>
+    <servlet-name>EditDepartmentServlet</servlet-name>
+    <servlet-class>com.controller.EditDepartmentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditDepartmentServlet</servlet-name>
+    <url-pattern>/EditDepartmentServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>DeleteDepartmentServlet</servlet-name>
+    <servlet-class>com.controller.DeleteDepartmentServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteDepartmentServlet</servlet-name>
+    <url-pattern>/DeleteDepartmentServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+    <servlet>
+    <servlet-name>RegisterFacServlet</servlet-name>
+    <servlet-class>com.controller.RegisterFacServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RegisterFacServlet</servlet-name>
+    <url-pattern>/RegisterFacServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>RoomServlet</servlet-name>
+    <servlet-class>com.controller.RoomServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>RoomServlet</servlet-name>
+    <url-pattern>/RoomServlet</url-pattern>
+</servlet-mapping>
+
+    
+    <servlet>
+    <servlet-name>EditSubjectServlet</servlet-name>
+    <servlet-class>com.controller.EditSubjectServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditSubjectServlet</servlet-name>
+    <url-pattern>/EditSubjectServlet</url-pattern>
+</servlet-mapping>
+
+
+ <servlet>
+    <servlet-name>DeleteSubjectServlet</servlet-name>
+    <servlet-class>com.controller.DeleteSubjectServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteSubjectServlet</servlet-name>
+    <url-pattern>/DeleteSubjectServlet</url-pattern>
+</servlet-mapping>
+
+  
+   
+   
+   <servlet>
+    <servlet-name>AddSubjectServlet</servlet-name>
+    <servlet-class>com.controller.AddSubjectServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddSubjectServlet</servlet-name>
+    <url-pattern>/AddSubjectServlet</url-pattern>
+</servlet-mapping>
+    
+      <servlet>
+    <servlet-name>AddTimetableServlet</servlet-name>
+    <servlet-class>com.controller.AddTimetableServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>AddTimetableServlet</servlet-name>
+    <url-pattern>/AddTimetableServlet</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>EditTimetableServlet</servlet-name>
+    <servlet-class>com.controller.EditTimetableServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditTimetableServlet</servlet-name>
+    <url-pattern>/EditTimetableServlet</url-pattern>
+</servlet-mapping>
+
+
+ <servlet>
+    <servlet-name>DeleteTimetableServlet</servlet-name>
+    <servlet-class>com.controller.DeleteTimetableServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteTimetableServlet</servlet-name>
+    <url-pattern>/DeleteTimetableServlet</url-pattern>
+</servlet-mapping>
+
+    
+    <servlet>
+    <servlet-name>ProfileServlet</servlet-name>
+    <servlet-class>com.controller.ProfileServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>ProfileServlet</servlet-name>
+    <url-pattern>/ProfileServlet</url-pattern>
+</servlet-mapping>
+    
+</web-app>
