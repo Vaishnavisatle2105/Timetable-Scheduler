@@ -1,6 +1,5 @@
 package com.dao;
 
-import com.controller.show_msgServlet;
 
 public class DAOFactory {
 	

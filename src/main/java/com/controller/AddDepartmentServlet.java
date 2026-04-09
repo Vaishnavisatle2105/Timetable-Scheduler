@@ -15,7 +15,12 @@ import com.model.Department;
 
 public class AddDepartmentServlet extends HttpServlet {
 
-    protected void doPost(HttpServletRequest request, HttpServletResponse response)
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
 
         String dept_name = request.getParameter("dept_name");

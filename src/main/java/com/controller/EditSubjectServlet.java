@@ -15,6 +15,11 @@ import com.model.Subject;
 
 public class EditSubjectServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		Subject s = new Subject();
         s.setSub_id(Integer.parseInt(request.getParameter("sub_id")));

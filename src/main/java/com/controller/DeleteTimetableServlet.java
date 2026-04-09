@@ -14,6 +14,11 @@ import com.dao.TimetableDao;
 
 public class DeleteTimetableServlet extends HttpServlet {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		int id = Integer.parseInt(request.getParameter("tt_id"));
         TimetableDao dao = DAOFactory.getTimetableDao();

@@ -1,11 +1,12 @@
 package com.controller;
 
+
 import java.io.IOException;
-import java.sql.Connection;
+
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
+
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,10 +14,15 @@ import javax.servlet.http.HttpServletResponse;
 import com.dao.DAOFactory;
 import com.dao.SubjectDao;
 import com.model.Subject;
-import com.util.DBConnection;
+
 
 
 public class AddSubjectServlet extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {

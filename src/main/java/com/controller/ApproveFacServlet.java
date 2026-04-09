@@ -14,7 +14,12 @@ import com.dao.adminDao;
 
 public class ApproveFacServlet extends HttpServlet {
 	
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException 
     {
 
         int id = Integer.parseInt(request.getParameter("facid"));

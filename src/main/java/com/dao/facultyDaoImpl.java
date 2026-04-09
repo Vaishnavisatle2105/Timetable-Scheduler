@@ -7,7 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.model.Faculty;
-import com.model.Subject;
 import com.util.DBConnection;
 
 public class facultyDaoImpl implements facultyDao {

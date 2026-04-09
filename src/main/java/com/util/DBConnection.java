@@ -18,11 +18,11 @@ public class DBConnection {
 
 			dbcp.setDriverClassName("com.mysql.cj.jdbc.Driver");
 
-			dbcp.setUrl("jdbc:Mysql://localhost:3306/timetable_db");
+			dbcp.setUrl(sql_pass.getUrl());
 
-			dbcp.setUsername("root");
+			dbcp.setUsername(sql_pass.getUname());
 
-			dbcp.setPassword("");
+			dbcp.setPassword(sql_pass.getPass());
 
 			conn= dbcp.getConnection();
 			//System.out.println("cann com");
