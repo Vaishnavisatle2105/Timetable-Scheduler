@@ -1,2 +1,0 @@
-Minor project 2
-time table schedular
