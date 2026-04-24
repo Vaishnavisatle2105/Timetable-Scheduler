@@ -146,32 +146,11 @@
     
     <button class="btn" formaction="${pageContext.request.contextPath}/facultyLogin">Login</button>
 <br>
-<p>before login, Check your account has been APPROVED or NOT !!
-<button class="btn" formaction="${pageContext.request.contextPath}/show_msgServlet"
-    title="Check, your account has been APPROVED or REGECTED by admin!!">Check Account</button>
-    
 
-</form>
-<h3 style="color:green;">
-            ${error1}
-           </h3>
-           <h3 style="color:red;">
-            ${error2}
-           </h3>
-           <h3 style="color:blue;">
-            ${error3}
-           </h3>
-<h3 style="color:red;">
-      ${error}
-     </h3>
-      <%
-    String msg = (String)request.getAttribute("msg");
-    if(msg != null){
-%>
-<script>alert("<%=msg%>");</script>
-<%
-    }
-%>
+
+
+
+
    
     <div class="links">
         
