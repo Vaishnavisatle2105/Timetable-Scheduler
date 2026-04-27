@@ -12,10 +12,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Student Dashboard</title>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!--  link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"-->
 
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/assets/css/studentdashboard_style.css " />
 </head>
 <body>
 
@@ -188,6 +188,6 @@
   
 </main>
 
-<script src="script.js"></script>
+<script src="${pageContext.request.contextPath}/assets/js/st_dashboard.js "></script>
 </body>
 </html>
